@@ -1,12 +1,17 @@
 :root {
     --main-text-color: white;
+    --background-color: gray;
+}
+
+body {
+    background-color: #3C91E6;
 }
 
 /* main landing class */
 .landing {
     display: block;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-weight: 450;
     border-style: black;
     margin-bottom: 20px;
@@ -15,6 +20,7 @@
 
 /* main landing icon */
 .landing img {
+    background-color: var(--background-color);
     box-shadow: 5px 10px 8px #888888;
     border-radius: 25px;
     text-align: center;
@@ -23,22 +29,23 @@
 /* ' i desgin code' */
 .slogan {
     font-size: 1.3rem;
-    font-weight: 190;
+    font-weight: 400;
 }
 
 .grid-main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 50px;
+    background-color: var(--background-color);
+
+    border-style: 2px;
+    margin: 0px 10%;
 }
 
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
 
+    padding: 20px;
+    text-align: center;
 }
 
 .grid-item img {
@@ -47,29 +54,23 @@
     height: auto;
 }
 
-.grid-item ul {
-    font-size: 16px;
-    text-align: center;
+.p-main {
+    font-size: 20px;
 }
 
 
 .col {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
-
 }
-
-
-
 
 /*main landing responsiveness*/
 @media screen and (max-width: 991px) {
     .landing {
         font-size: 30px;
         margin: 0px 20px;
+        margin-bottom: 20px;
     }
 
     .landing img {
@@ -81,6 +82,7 @@
 @media screen and (max-width: 700px) {
     .grid-main {
         display: block;
+        margin: 0px 10px;
     }
 
     .grid-item img {
