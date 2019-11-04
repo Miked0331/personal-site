@@ -36,14 +36,13 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 50px;
-    background-color: var(--background-color);
-
+    background-color: #343A40;
+    color: white;
     border-style: 2px;
     margin: 0px 10%;
 }
 
 .grid-item {
-
     padding: 20px;
     text-align: center;
 }
@@ -52,10 +51,16 @@ body {
     border-radius: 20px;
     max-width: 80%;
     height: auto;
+    text-align: center;
+}
+
+.grid-arrow {
+    display: none;
+    text-align: center;
 }
 
 .p-main {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -89,4 +94,14 @@ body {
         width: 70%;
         height: auto;
     }
+
+    .grid-arrow {
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 0;
+        text-align: center;
+
+    }
+
 }
