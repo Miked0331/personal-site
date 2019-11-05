@@ -30,25 +30,30 @@ body {
 /* animating landing text */
 .landing p {
     position: relative;
-  -webkit-animation: mymove 5s ; /* Safari 4.0 - 8.0 */
-  animation: mymove 3s ;
+    -webkit-animation: mymove 5s;
+    /* Safari 4.0 - 8.0 */
+    animation: mymove 3s;
 }
 
-#div1 {animation-timing-function: linear;}
+#div1 {
+    animation-timing-function: linear;
+}
 
 @keyframes mymove {
-    from {left: -300px;}
-    to {left: 0px;}
-  }
+    from {
+        left: -300px;
+    }
 
-
+    to {
+        left: 0px;
+    }
+}
 
 /* ' i desgin code' */
 .slogan {
     font-size: 1.3rem;
     font-weight: 400;
 }
-
 
 /*Main grid layout*/
 .grid-main {
@@ -61,6 +66,17 @@ body {
     margin: 0px 10%;
 }
 
+/* my current projects grid */
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 50px;
+    background-color: #343A40;
+    color: white;
+    border-style: 2px;
+    margin: 10vh 10%;
+}
+
 /* each whole grid item */
 .grid-item {
     padding: 20px;
@@ -68,10 +84,16 @@ body {
 }
 
 /*bigger icon on top of grid item */
-.grid-big-image  {
-    border-radius: 20px;
+.grid-big-image {
+    border-radius: 25px;
     max-width: 80%;
     height: auto;
+    transition: transform .2s;
+    padding-bottom: 15px;
+}
+
+.grid-big-image:hover {
+    transform: scale(1.05);
 }
 
 /* div for grid arrow */
@@ -79,7 +101,8 @@ body {
     display: none;
     text-align: center;
 }
- /* grid paragraphs */
+
+/* grid paragraphs */
 .p-main {
     font-size: 25px;
 }
@@ -98,6 +121,22 @@ body {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .grid-main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-big-image {
+        width: 70%;
+        height: auto;
+        transition: none;
+    }
+
+    .grid-big-image:hover {
+        transform: none;
+    }
+}
+
 /* responsive grid content */
 @media screen and (max-width: 700px) {
     .grid-main {
@@ -105,13 +144,8 @@ body {
         margin: 0px 10px;
     }
 
-    .grid-big-image {
-        width: 70%;
-        height: auto;
-    }
-
     .grid-arrow {
-        display: block;        
+        display: block;
         margin: 0;
         text-align: center;
 
