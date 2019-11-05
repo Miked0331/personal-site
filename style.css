@@ -44,31 +44,27 @@ body {
     margin: 0px 10%;
 }
 
+/* each whole grid item */
 .grid-item {
     padding: 20px;
     text-align: center;
 }
 
+/*bigger icon on top of grid item */
 .grid-big-image  {
     border-radius: 20px;
     max-width: 80%;
     height: auto;
 }
 
+/* div for grid arrow */
 .grid-arrow {
     display: none;
     text-align: center;
 }
-
+ /* grid paragraphs */
 .p-main {
     font-size: 25px;
-}
-
-
-.col {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
 }
 
 /*main landing responsiveness*/
@@ -85,6 +81,7 @@ body {
     }
 }
 
+/* responsive grid content */
 @media screen and (max-width: 700px) {
     .grid-main {
         display: block;
