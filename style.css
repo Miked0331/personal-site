@@ -122,7 +122,9 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-    .grid-main {
+
+    .grid-main,
+    .grid-2 {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -139,7 +141,9 @@ body {
 
 /* responsive grid content */
 @media screen and (max-width: 700px) {
-    .grid-main {
+
+    .grid-main,
+    .grid-2 {
         display: block;
         margin: 0px 10px;
     }
