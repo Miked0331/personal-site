@@ -32,6 +32,8 @@ body {
     font-weight: 400;
 }
 
+
+/*Main grid layout*/
 .grid-main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -47,15 +49,15 @@ body {
     text-align: center;
 }
 
-.grid-item img {
+.grid-big-image  {
     border-radius: 20px;
     max-width: 80%;
     height: auto;
-    text-align: center;
 }
 
 .grid-arrow {
     display: none;
+    text-align: center;
 }
 
 .p-main {
@@ -89,20 +91,15 @@ body {
         margin: 0px 10px;
     }
 
-    .grid-item img {
+    .grid-big-image {
         width: 70%;
         height: auto;
     }
 
     .grid-arrow {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100px;
-        height: 100px;
+        display: block;        
         margin: 0;
         text-align: center;
 
     }
-
 }
