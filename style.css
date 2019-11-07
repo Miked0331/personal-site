@@ -131,11 +131,12 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
     height: 10vh;
-    margin:0px 10% 5%;
-    
+    margin: 0px 10% 5%;
+    border-top: solid black 2px;
 }
 
 footer img {
+    padding-top: 20px;
     max-width: 80px;
     height: auto;
 }
@@ -177,8 +178,9 @@ footer img:hover {
         text-align: center;
 
     }
+
     footer {
-        margin:10% 10% 5% 10%;
+        margin: 10% 10% 5% 10%;
         justify-content: space-between;
     }
 
