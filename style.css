@@ -139,10 +139,13 @@ footer img {
     padding-top: 20px;
     max-width: 80px;
     height: auto;
+    transition: .5s ease-in-out;
+    background-color: #3C91E6;
+
 }
 
 footer img:hover {
-    opacity: 80;
+    opacity: .5;
 }
 
 @media screen and (max-width: 1024px) {
