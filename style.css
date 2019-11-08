@@ -114,7 +114,7 @@ body {
 /*bigger icon on top of grid item */
 .grid-big-image {
     border-radius: 25px;
-    max-width: 80%;
+    max-width: 390px;
     height: auto;
     transition: transform .2s;
     padding-bottom: 15px;
