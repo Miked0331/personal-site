@@ -9,6 +9,7 @@ html {
 
 body {
     background-color: #3C91E6;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 /* main landing class */
@@ -78,7 +79,7 @@ body {
     background-color: #343A40;
     color: white;
     border-style: 2px;
-    margin: 10vh 10%;
+    margin: 0 10% 2%;
 }
 
 /* next 3 blocks source code and live code buttons for projects */
@@ -120,6 +121,11 @@ body {
     padding-bottom: 15px;
 }
 
+.grid-2 img {
+    widows: 80px;
+    height: auto;
+}
+
 .grid-big-image:hover {
     transform: scale(1.05);
 }
@@ -132,7 +138,19 @@ body {
 
 /* grid paragraphs */
 .p-main {
-    font-size: 25px;
+    font-size: 1.4rem;
+    font-weight: 10;
+    padding: 0px 10%;
+}
+
+.p-title {
+    font-size: 2rem;
+    color: cyan;
+}
+
+.p-title2 {
+    font-size: 1.5rem;
+    color: chartreuse;
 }
 
 /*main landing responsiveness*/
