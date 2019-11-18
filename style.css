@@ -192,12 +192,11 @@ footer img:hover {
     /* Text color */
     cursor: pointer;
     /* Add a mouse pointer on hover */
-    padding: 15px;
+    padding: 13px;
     /* Some padding */
     border-radius: 10px;
     /* Rounded corners */
-    font-size: 18px;
-    /* Increase font size */
+
 }
 
 #myBtn:hover {
