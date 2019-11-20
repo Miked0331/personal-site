@@ -115,15 +115,10 @@ body {
 /*bigger icon on top of grid item */
 .grid-big-image {
     border-radius: 25px;
-    max-width: 90%;
+    max-width: 80%;
     height: auto;
     transition: transform .2s;
     padding-bottom: 15px;
-}
-
-.grid-2 img {
-    widows: 80px;
-    height: auto;
 }
 
 .grid-big-image:hover {
@@ -151,6 +146,15 @@ body {
 .p-title2 {
     font-size: 1.5rem;
     color: chartreuse;
+}
+
+.div-ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+.div-ul li {
+    padding: 0 10% 10px 0;
 }
 
 /*main landing responsiveness*/
