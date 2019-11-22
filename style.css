@@ -67,7 +67,6 @@ body {
     border-radius: 50px;
     background-color: #343A40;
     color: white;
-    border-style: 2px;
     margin: 0px 10%;
 }
 
@@ -116,7 +115,6 @@ body {
 .grid-big-image {
     border-radius: 25px;
     max-width: 80%;
-    height: auto;
     transition: transform .2s;
     padding-bottom: 15px;
 }
