@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-color: #3C91E6;
+    background-color: #343A40;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -20,7 +20,9 @@ body {
     font-weight: 450;
     border-style: black;
     margin-bottom: 20px;
-
+    margin: 0 20% 0 20%;
+    background-color: white;
+    border-radius: 30px;
 }
 
 /* main landing icon */
@@ -65,7 +67,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 50px;
-    background-color: #343A40;
+    background-color: white;
     color: white;
     margin: 0px 10%;
 }
@@ -137,8 +139,10 @@ body {
 }
 
 .p-title {
+
     font-size: 2rem;
-    color: cyan;
+    color: #7f7ff0;
+    font-family: "eurostile", sans-serif;
 }
 
 .p-title2 {
