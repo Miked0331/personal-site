@@ -9,7 +9,10 @@ html {
 
 body {
     background-color: #3C91E6;
-    font-family: 'Titillium Web', sans-serif;
+}
+
+a:hover {
+    color: blue;
 }
 
 /* main landing class */
@@ -17,9 +20,10 @@ body {
     display: block;
     text-align: center;
     font-size: 2.6rem;
-    font-weight: 450;
+    font-weight: 700;
     border-style: black;
     margin-bottom: 20px;
+    font-family: 'Noto Serif', serif;
 
 }
 
@@ -56,8 +60,8 @@ body {
 
 /* ' i desgin code' */
 .slogan {
-    font-size: 1.4rem;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 450;
 }
 
 /*Main grid layout*/
@@ -141,11 +145,13 @@ body {
 .p-title {
     font-size: 2rem;
     color: cyan;
+    font-family: 'Alatsi', sans-serif;
 }
 
 .p-title2 {
     font-size: 1.5rem;
     color: cyan;
+    font-family: 'Alatsi', sans-serif;
 }
 
 .div-ul {
@@ -274,3 +280,116 @@ footer img:hover {
 
     }
 }
+
+/* all SVG styling*/
+
+.svg {
+    text-align: center;
+}
+
+svg {
+    max-width: 500px;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    svg {
+        max-width: 300px;
+    }
+}
+
+#rightarrow {
+    animation: arrow 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#leftarrow {
+    animation: arrow2 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes arrow2 {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes arrow {
+    from {
+        transform: rotateZ(360deg);
+    }
+
+    to {
+        transform: rotateZ(0deg);
+    }
+}
+
+#laptop {
+    animation: laptop1 1s ease-in-out infinite alternate;
+}
+
+@keyframes laptop1 {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(20deg);
+    }
+}
+
+#tablet {
+    animation: tablet 1s ease-in-out infinite alternate;
+    animation-delay: 2s;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes tablet {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(90deg);
+    }
+}
+
+#phone {
+    animation: phone 1s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 1s;
+}
+
+@keyframes phone {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(-90deg);
+    }
+}
+
+#tree {
+    animation: tree 1s ease-in-out infinite alternate;
+}
+
+@keyframes tree {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(20%);
+    }
+}
+
+/*end of SVG styling*/
