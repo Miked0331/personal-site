@@ -288,15 +288,10 @@ footer img:hover {
 }
 
 svg {
-    max-width: 500px;
+    max-width: 80%;
     height: auto;
 }
 
-@media only screen and (max-width: 600px) {
-    svg {
-        max-width: 300px;
-    }
-}
 
 #rightarrow {
     animation: arrow 2s infinite linear;
@@ -332,6 +327,7 @@ svg {
 
 #laptop {
     animation: laptop1 1s ease-in-out infinite alternate;
+    animation-delay: 2s;
 }
 
 @keyframes laptop1 {
@@ -346,7 +342,7 @@ svg {
 
 #tablet {
     animation: tablet 1s ease-in-out infinite alternate;
-    animation-delay: 2s;
+    animation-delay: 4s;
     transform-origin: center;
     transform-box: fill-box;
 }
@@ -365,7 +361,7 @@ svg {
     animation: phone 1s ease-in-out infinite alternate;
     transform-origin: center;
     transform-box: fill-box;
-    animation-delay: 1s;
+    animation-delay: 3s;
 }
 
 @keyframes phone {
