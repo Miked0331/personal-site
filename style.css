@@ -61,7 +61,7 @@ a:hover {
 /* ' i desgin code' */
 .slogan {
     font-size: 1.5rem;
-    font-weight: 450;
+    font-weight: 600;
 }
 
 /*Main grid layout*/
@@ -138,7 +138,7 @@ a:hover {
 /* grid paragraphs */
 .p-main {
     font-size: 1.4rem;
-    font-weight: 10;
+    font-weight: 400;
     padding: 0px 10%;
 }
 
@@ -276,7 +276,7 @@ footer img:hover {
     }
 
     #myBtn {
-        bottom: 20%;
+        bottom: 15%;
 
     }
 }
