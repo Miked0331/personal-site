@@ -232,6 +232,7 @@ footer img:hover {
     /* Add a dark-grey background on hover */
 }
 
+/* 2 column layout*/
 @media screen and (max-width: 1024px) {
 
     .grid-main,
@@ -250,7 +251,7 @@ footer img:hover {
     }
 }
 
-/* responsive grid content */
+/* responsive grid content mobile */
 @media screen and (max-width: 700px) {
 
     .grid-main,
@@ -279,6 +280,11 @@ footer img:hover {
         bottom: 15%;
         right: 1%;
         padding: 9px;
+    }
+
+    #div-2 h1 {
+        font-weight: 300;
+        font-size: 32px;
     }
 }
 
