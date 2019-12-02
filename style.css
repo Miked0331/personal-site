@@ -277,7 +277,8 @@ footer img:hover {
 
     #myBtn {
         bottom: 15%;
-
+        right: 1%;
+        padding: 9px;
     }
 }
 
