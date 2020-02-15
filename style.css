@@ -9,6 +9,7 @@ html {
 
 body {
     background-color: #3C91E6;
+    font-family: 'Alatsi', sans-serif;
 }
 
 a:hover {
@@ -151,7 +152,7 @@ a:hover {
 
 .p-title2 {
     font-size: 1.5rem;
-    color: #00CED1;
+    color: cyan;
     font-family: 'Alatsi', sans-serif;
 }
 
